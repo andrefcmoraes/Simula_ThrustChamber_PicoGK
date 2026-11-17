@@ -1,0 +1,1 @@
+bin/Release/net9.0/Output_STL/*.stl filter=lfs diff=lfs merge=lfs -text

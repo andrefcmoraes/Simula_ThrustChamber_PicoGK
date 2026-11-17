@@ -1,0 +1,44 @@
+==================================================================
+ PICOGK MESH CONTINUITY & TOPOLOGY VERIFICATION (Voxel = 0,060 mm)
+ Architecture: LEAP 71 Dendritic Spiral (5 -> 30 -> 15 Channels, Wrap = 284,3°)
+==================================================================
+------------------------------------------------------------------
+ MESH CONTINUITY REPORT: ThrustChamber_Monolithic_Solid_UltraHD.stl
+------------------------------------------------------------------
+  Status (2-Manifold Watertight): PASS (100% WATERTIGHT 2-MANIFOLD)
+  Connected Shells (Components) : 1
+  Raw Marching Cubes Triangles  : 14.687.424
+  Sanitized Sliver Triangles    : 48 removed
+  Final STL Triangles (F)       : 14.687.376
+  Unique Welded Vertices (V)    : 7.343.626
+  Unique Undirected Edges (E)   : 22.031.064
+  Manifold Edges (inc=2)        : 22.031.064 (100,0000%)
+  Open Boundary Edges (inc=1)   : 0 (target: 0)
+  Non-Manifold Edges (inc>2)    : 0 (target: 0)
+  Consistent Normal Winding     : 22.031.064 (100,0000%)
+  Degenerate Triangles          : 0 (target: 0)
+  Euler Characteristic (V-E+F)  : -62
+  Surface Area                  : 18144,36 mm²
+  Enclosed Volume               : 10496,90 mm³ (10,497 cm³)
+  Bounding Box (mm)             : [-11,00, -17,55, -17,55] -> [45,85, 17,55, 20,42]
+
+------------------------------------------------------------------
+ MESH CONTINUITY REPORT: ThrustChamber_Monolithic_FluidCore.stl
+------------------------------------------------------------------
+  Status (2-Manifold Watertight): PASS (100% WATERTIGHT 2-MANIFOLD)
+  Connected Shells (Components) : 2
+  Raw Marching Cubes Triangles  : 9.557.452
+  Sanitized Sliver Triangles    : 32 removed
+  Final STL Triangles (F)       : 9.557.420
+  Unique Welded Vertices (V)    : 4.778.662
+  Unique Undirected Edges (E)   : 14.336.130
+  Manifold Edges (inc=2)        : 14.336.130 (100,0000%)
+  Open Boundary Edges (inc=1)   : 0 (target: 0)
+  Non-Manifold Edges (inc>2)    : 0 (target: 0)
+  Consistent Normal Winding     : 14.336.130 (100,0000%)
+  Degenerate Triangles          : 0 (target: 0)
+  Euler Characteristic (V-E+F)  : -48
+  Surface Area                  : 11903,60 mm²
+  Enclosed Volume               : 15815,79 mm³ (15,816 cm³)
+  Bounding Box (mm)             : [-11,00, -12,72, -12,72] -> [45,67, 12,72, 19,40]
+

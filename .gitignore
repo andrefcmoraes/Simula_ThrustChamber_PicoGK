@@ -1,5 +1,13 @@
-[Bb]in/
 [Oo]bj/
+
+# Keep generated geometry, but exclude other build outputs
+[Bb]in/*
+!bin/Release/
+bin/Release/*
+!bin/Release/net9.0/
+bin/Release/net9.0/*
+!bin/Release/net9.0/Output_STL/
+!bin/Release/net9.0/Output_STL/**
 
 # Visual Studio
 .vs/
@@ -7,5 +15,3 @@
 *.suo
 *.sln.docstates
 
-# Generated output
-**/Output_*/
