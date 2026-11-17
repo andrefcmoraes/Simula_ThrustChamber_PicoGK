@@ -1,0 +1,11 @@
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Generated output
+**/Output_*/
